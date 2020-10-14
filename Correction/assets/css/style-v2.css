@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto;
+    gap: 0 2em;
+}
+
+.div-img {
+    grid-column: 2 / 11;
+    grid-row: 1;
+}
+
+.img-fit {
+    width: 100%;
+    height: auto;
+}
+
+.firstColumn {
+    grid-column: 2 / span 3;
+}
+
+.secondColumn {
+    grid-column: 5 / span 3;
+}
+
+.thirdColumn {
+    grid-column: 8 / span 3;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #1c93ee;
+    font-weight: lighter;
+}
+
+hr {
+    margin-top: 1.5rem;
+    color: #d7d7d7;
+}
+
+.img-highlight {
+    position: relative;
+}
+
+.img-highlight p {
+    margin: 0;
+}
+
+.category-highlight p {
+    margin: 0;
+}
+
+.subtitle-highlight {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.subtitle-highlight h2 {
+    margin: O;
+    font-weight: lighter;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.firstColumn .category-highlight {
+    position: absolute;
+    text-transform: uppercase;
+    background-color: #1c93ee;
+    color: white;
+    padding: 0.6rem;
+    font-size: 2rem;
+    bottom: 0.4rem;
+}
+
+.firstColumn .category span {
+    text-transform: uppercase;
+    background-color: #1c93ee;
+    color: white;
+    padding: 0.6rem;
+    font-size: 1.5rem;
+    bottom: 0.4rem;
+}
+
+.secondColumn .category-highlight {
+    position: absolute;
+    text-transform: uppercase;
+    background-color: #c12151;
+    color: white;
+    padding: 0.6rem;
+    font-size: 2rem;
+    bottom: 0.4rem;
+}
+
+.secondColumn .category span {
+    text-transform: uppercase;
+    background-color: #c12151;
+    color: white;
+    padding: 0.6rem;
+    font-size: 1.5rem;
+    bottom: 0.4rem;
+}
+
+.thirdColumn .category-highlight {
+    position: absolute;
+    text-transform: uppercase;
+    background-color: #c12151;
+    color: white;
+    padding: 0.6rem;
+    font-size: 2rem;
+    bottom: 0.4rem;
+}
+
+.thirdColumn .category span {
+    text-transform: uppercase;
+    background-color: #c12151;
+    color: white;
+    padding: 0.6rem;
+    font-size: 1.5rem;
+    bottom: 0.4rem;
+}
+
+.date-highlight {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.date {
+    font-weight: lighter;
+}
